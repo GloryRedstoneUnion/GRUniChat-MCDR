@@ -76,4 +76,4 @@ Thumbs.db
 *.temp
 
 #广播器
-websocket_broadcaster/
+GRUniChat-Broadcaster/
