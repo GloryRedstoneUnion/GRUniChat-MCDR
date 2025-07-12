@@ -2,7 +2,7 @@ from mcdreforged.api.all import *
 
 def register_grunichat_command(server, ws_service, config):
     # !!grunichat rename <new_id>
-    rename_branch = Literal('rename').then(Text('new_id').runs(lambda src, ctx: ws_service.rename(src, ctx['new_id'])))
+    rename_branch = Literal('rename').then(Text('new_id').runs(lambda src, ctx: ws_service.rename(src, ctx['new_id'], server)))
     # !!grunichat reconnect
     reconnect_branch = Literal('reconnect').runs(lambda src, ctx: ws_service.reconnect(src))
     # !!grunichat disconnect

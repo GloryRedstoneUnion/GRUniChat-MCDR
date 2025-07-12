@@ -1,12 +1,13 @@
 # 忽略其他插件项目
 AutoCommand/
 ChatBridge/
+ws_test_server/
 
 # Python 缓存文件
 __pycache__/
 *.py[cod]
 *$py.class
-
+grunichatmcdr/grunichat.py
 # 分发 / 打包
 .Python
 build/
@@ -73,3 +74,6 @@ Thumbs.db
 # 临时文件
 *.tmp
 *.temp
+
+#广播器
+websocket_broadcaster/
