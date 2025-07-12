@@ -1,0 +1,21 @@
+{
+  "id": "grunichatmcdr",
+  "version": "0.1.0",
+  "name": "GRUniChatMCDR",
+  "description": {
+    "en_us": "A MCDR plugin for message bridge with Koishi via WebSocket.",
+    "zh_cn": "与Koishi插件通过WebSocket互通，实现MC与多平台消息互联"
+  },
+  "author": [
+    "caikun233"
+  ],
+  "link": "",
+  "dependencies": {
+    "mcdreforged": ">=2.1.0"
+  },
+  "archive_name": "GRUniChatMCDR-v{version}",
+  "entrypoint": "grunichatmcdr.grunichatmcdr",
+  "resources": [
+    "LICENSE"
+  ]
+}
