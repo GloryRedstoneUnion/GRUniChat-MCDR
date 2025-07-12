@@ -4,7 +4,7 @@
   "name": "GRUniChatMCDR",
   "description": {
     "en_us": "A MCDR plugin for message bridge with Koishi via WebSocket.",
-    "zh_cn": "与Koishi插件通过WebSocket互通，实现MC与多平台消息互联"
+    "zh_cn": "GRUniChat协议的MCDR实现"
   },
   "author": [
     "caikun233"
